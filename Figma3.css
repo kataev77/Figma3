@@ -1,0 +1,450 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+}
+body
+{
+	font-family: "Lato";
+	margin: auto;
+}
+img
+{
+	width: 100%;
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+li
+{
+	list-style-type: none;
+}
+header
+{
+	background-image: url(img3/Rectangle3.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 782px;
+}
+img
+{
+	width: 100%;
+}
+.bg
+{
+	width: 100%;
+	height: 782px;
+	background: linear-gradient(90deg,rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+.container
+{
+	margin: auto;
+	width: 1170px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 35px 0;
+}
+.text-header i
+{
+	margin-right: 10px;
+}
+.nav ul
+{
+	width: 445px;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons
+{
+	width: 100px;
+	height: 40px;
+	border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons p
+{
+	font-size: 14px;
+    line-height: 17px;
+}
+.head-text
+{
+	margin: auto;
+	width: 1170px;
+	text-align: center;
+}
+.header-text h1
+{
+	color: white;
+	font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 160px;
+}
+.header-info
+{
+	width: 540px;
+	margin: auto;
+}
+.header-info p
+{
+	padding: 30px 30px;
+	color: white;
+	font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+}
+.buttons1 
+{
+	width: 160px;
+	height: 50px;
+	background-color: white;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+.buttons1 h3
+{
+	color: #ED4C5C;
+}
+main
+{
+	width: 100%;
+}
+section
+{
+	width: 1170px;
+	margin: auto;
+}
+
+.CloudBudget-info
+{
+	display: flex;
+	justify-content: space-between;
+}
+.CloudBudget-desc
+{
+	width: 445px;
+	height: 250px;
+}
+.CloudBudget-desc h1
+{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 140px 0 30px 0;
+}
+.CloudBudget-desc p
+{	
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+.Learn-More 
+{
+	margin-top: 20px;
+	color: #ED4C5C;
+}
+.CloudBudget-img
+{
+	margin: 50px 0;
+	z-index: 1;
+}
+.buttons-vid
+{
+	background-color: #ED4C5C;
+	width: 66px;
+	height: 66px;
+	border-radius: 100px;
+	z-index: 2;
+	position: relative;
+	top: 185px;
+	right: 33px;
+	display: flex;
+}
+.buttons-vid i
+{
+	width: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Features
+{
+	width: 100%;
+	background-color: #FAFAFA;
+}
+.Features-block
+{
+	width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+.wrap
+{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.wrap h2
+{
+	height: 55px;
+	text-align: center;
+}
+.Features-cards
+{
+	display: flex;
+}
+.Features-card-item
+{
+	width: 350px;
+	height: 355px;
+}
+.Features-card-info
+{
+	background-color: white;
+	color: black;
+	width: 290px;
+	height: 190px;
+	box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+	position: relative;
+	bottom: 100px;
+	left: 28px;
+	text-align: center;
+	justify-content: center;
+	padding: 32px 32px;
+}
+.Features-card-info h3 
+{
+	width: 229px;
+}
+.Features-card-info p
+{
+	width: 229px;
+	margin-top: 15px;
+	font-size: 12px;
+   line-height: 150%;
+}
+.Features-card-info div
+{
+	padding-top: 25px;
+	color: #ED4C5C;
+	font-size: 12px;
+	line-height: 150%;
+	font-weight: bold;
+}
+.Technology-block
+{
+	display: flex;
+	justify-content: space-between;
+}
+.Technology-card-item
+{
+	width: 255px;
+	height: 225px;
+	text-align: center;
+}
+.Technology-card-item h2
+{
+	text-align: center;
+	font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+	color: rgba(16, 16, 16, 0.08);
+	z-index: 1;
+}
+.Technology-card-info
+{
+	text-align: center;
+	z-index: 2;
+	position: relative;
+	bottom: 60px;
+}
+.Technology-card-info img
+{
+	width: 90px;
+	color: #ED4C5C;
+}
+.Technology-card-info p
+{
+	margin-top: 10px;
+	font-size: 12px;
+    line-height: 14px;
+}
+.Technology-card-info1 
+{
+	width: 60px;
+	position: relative;
+	bottom: 40px;
+	left: 100px;
+}
+.Technology-card-info11
+{
+	text-align: center;
+	z-index: 2;
+	position: relative;
+	bottom: 38px;
+	
+}
+.Technology-card-info11 p
+{
+	margin-top: 10px;
+	font-size: 12px;
+    line-height: 14px;
+}
+.Stay
+{
+	width: 100%;
+	background-color: #ED4C5C;
+	margin-top: 100px;
+}
+.Stay-info
+{
+	width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.Stay-desc
+{
+	width: 445px;
+	height: 250px;
+}
+.Stay-desc h1
+{
+	color: white;
+	font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    margin: 140px 0 30px 0;
+}
+.Stay-desc p
+{
+	color: white;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+.Stay-More 
+{
+	width: 132px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.Stay-More img
+{
+	width: 32px;
+	height: 32px;
+	color: #ED4C5C;
+}
+.Stay-img
+{
+	width: 530px;
+	height: 310px;
+	margin: 140px 0;
+}
+.Stay-img img
+{
+	width: 445px;
+	height: 310px;
+	border-radius: 15px;
+	position: relative;
+	z-index: 4;
+}
+.div-img
+{
+	display: flex;
+}
+.div-img img
+{
+	width: 265px;
+	height: 260px;
+	z-index: 1;
+	position: relative;
+	bottom: 290px;
+	right: 40px;
+}
+footer
+{
+	width: 100%;
+}
+.footer
+{
+	width: 1170px;
+	height: 300px;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	padding: 85px 0;
+}
+.footer-block
+{
+	width: 250px;
+	height: 260px;
+}
+.footer-block p
+{
+	margin-top: 30px;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.footer-block div
+{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.text-div
+{
+	margin-top: 30px;
+}
+.div-icons
+{
+	width: 122px;
+	display: flex;
+}
+.div-icons img 
+{
+	width: 13px;
+	height: 13px;
+	margin: 15px 15px;
+}
+.div-icons i
+{
+	margin-top: 15px;
+}
+.bank
+{
+	width: 215px;
+	height: 31px;
+	margin-top: 30px;
+}
